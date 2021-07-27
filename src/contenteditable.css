@@ -1,0 +1,16 @@
+.contenteditable {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  appearance: none;
+}
+
+.contenteditable-placholder {
+  color: #ccc;
+  position: absolute;
+  z-index: -1;
+}
